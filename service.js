@@ -6,7 +6,7 @@ const morgan = require('morgan')
 // Load environment variables from .env file
 dotenv.load();
 
-const PORT = process.env.PORT || 3210
+const PORT = process.env.PORT || 3000
 
 const app = express()
 
