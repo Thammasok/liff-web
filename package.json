@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node ./service.js",
-    "start:client": "react-scripts start",
+    "start": "react-scripts start",
+    "start:service": "node ./service.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
@@ -12,8 +12,6 @@
   "dependencies": {
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
-    "localStorage": "^1.0.3",
-    "lodash": "^4.17.10",
     "morgan": "^1.9.0",
     "path": "^0.12.7",
     "react": "^16.4.2",

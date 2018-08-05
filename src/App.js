@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import './App.css'
 const liff = window.liff;
 
 class App extends Component {
@@ -39,7 +37,7 @@ class App extends Component {
     event.preventDefault();
     liff.sendMessages([{
       type: 'text',
-      text: "Thank you, Bye!"
+      text: "Bye Bye!!!"
     }]).then(() => {
       liff.closeWindow();
     });
@@ -47,17 +45,23 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">LIFF</h1>
-        </header>
-        <h2>LIFF by LINE.</h2>
-        <p>{this.state.displayName}</p>
-        <p>{this.state.userId}</p>
-        <p>{this.state.pictureUrl}</p>
-        <p>{this.state.statusMessage}</p>
-        <button onClick={this.closeApp}>Close</button>
+      <div className="container">
+        <div className="columns m-t-10">
+          <div className="column col-xs-12">
+            <div className="panel">
+              <div className="panel-header text-center">
+                <figure className="avatar avatar-lg">
+                  <img src={this.state.pictureUrl} alt="Avatar" />
+                </figure>
+                <div className="panel-title h5 mt-10">{this.state.displayName}</div>
+                <div className="panel-subtitle">{this.state.statusMessage}</div>
+              </div>
+              <div className="panel-footer">
+                <button className="btn btn-primary btn-block" onClick={this.closeApp}>Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
