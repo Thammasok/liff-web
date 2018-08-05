@@ -1,5 +1,5 @@
 ## How to use LIFF SDK on ReactJS
-You can learn more about LIFF SKD from Line Developers [LIFF SDK](https://developers.line.me/en/reference/liff)
+You can learn more about LIFF SDK from Line Developers [LIFF SDK](https://developers.line.me/en/reference/liff)
 
 ### Table of Contents
 - [Getting started with LIFF](#getting-started-with-liff)
