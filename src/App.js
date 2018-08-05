@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+
 import './App.css'
+
 const liff = window.liff;
 
 class App extends Component {
