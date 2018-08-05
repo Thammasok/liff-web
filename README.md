@@ -5,6 +5,7 @@
 - [Develop your LIFF app on ReactJS](#develop-your-liff-app-on-reactjs)
 - [Run This Project](#run-this-project)
 
+---
 ### Getting started with LIFF
 To add your web app to LIFF and enable the use of the LIFF, follow the steps below.
 
