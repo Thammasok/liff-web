@@ -1,6 +1,6 @@
-How to use LIFF SDK on ReactJS
+## How to use LIFF SDK on ReactJS
 
-## Table of Contents
+### Table of Contents
 - [Getting started with LIFF](#getting-started-with-liff)
 - [Develop your LIFF app on ReactJS](#develop-your-liff-app-on-reactjs)
 - [Run This Project](#run-this-project)
